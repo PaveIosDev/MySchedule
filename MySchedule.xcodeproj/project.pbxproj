@@ -12,6 +12,9 @@
 		C4B0848929E31C7500C1EADA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B0848829E31C7500C1EADA /* MainTabBarController.swift */; };
 		C4B0848E29E31C7600C1EADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B0848D29E31C7600C1EADA /* Assets.xcassets */; };
 		C4B0849129E31C7600C1EADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B0848F29E31C7600C1EADA /* LaunchScreen.storyboard */; };
+		C4B0849C29E32B4200C1EADA /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B0849B29E32B4200C1EADA /* ScheduleViewController.swift */; };
+		C4B0849E29E32B5A00C1EADA /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B0849D29E32B5A00C1EADA /* TasksViewController.swift */; };
+		C4B084A029E32B7400C1EADA /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B0849F29E32B7400C1EADA /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		C4B0848D29E31C7600C1EADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4B0849029E31C7600C1EADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4B0849229E31C7700C1EADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B0849B29E32B4200C1EADA /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		C4B0849D29E32B5A00C1EADA /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		C4B0849F29E32B7400C1EADA /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				C4B0848829E31C7500C1EADA /* MainTabBarController.swift */,
+				C4B0849B29E32B4200C1EADA /* ScheduleViewController.swift */,
+				C4B0849D29E32B5A00C1EADA /* TasksViewController.swift */,
+				C4B0849F29E32B7400C1EADA /* ContactsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -160,7 +169,10 @@
 			files = (
 				C4B0848929E31C7500C1EADA /* MainTabBarController.swift in Sources */,
 				C4B0848529E31C7500C1EADA /* AppDelegate.swift in Sources */,
+				C4B0849E29E32B5A00C1EADA /* TasksViewController.swift in Sources */,
 				C4B0848729E31C7500C1EADA /* SceneDelegate.swift in Sources */,
+				C4B0849C29E32B4200C1EADA /* ScheduleViewController.swift in Sources */,
+				C4B084A029E32B7400C1EADA /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
