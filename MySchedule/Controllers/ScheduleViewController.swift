@@ -6,10 +6,16 @@
 //
 
 import UIKit
-
+import FSCalendar
 
 class ScheduleViewController: UIViewController {
 
+    private var calendar: FSCalendar = {
+        let calendar = FSCalendar()
+        calendar.translatesAutoresizingMaskIntoConstraints = false
+        return calendar
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
